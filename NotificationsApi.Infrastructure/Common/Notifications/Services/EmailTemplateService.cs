@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using NotificationsApi.Application.Common.Models.Querying;
+using NotificationsApi.Application.Common.Notifications.Services;
 using NotificationsApi.Application.Common.Querying.Extensions;
 using NotificationsApi.Domain.Entities;
 using NotificationsApi.Domain.Enums;
@@ -9,7 +10,7 @@ using System.Linq.Expressions;
 
 namespace NotificationsApi.Infrastructure.Common.Notifications.Services;
 
-public class EmailTemplateService
+public class EmailTemplateService : IEmailTemplateService
 {
     private readonly IEmailTemplateRepository _emailTemplateRepository;
     private readonly IValidator<EmailTemplate> _emailTemplateValidator;
