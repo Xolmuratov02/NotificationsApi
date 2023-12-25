@@ -1,4 +1,6 @@
-﻿namespace NotificationsApi.Domain.Extensions;
+﻿using NotificationsApi.Domain.Common.Exceptions;
+
+namespace NotificationsApi.Domain.Extensions;
 
 public static class ExceptionExtensions
 {
