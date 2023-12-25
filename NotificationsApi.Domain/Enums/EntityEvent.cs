@@ -2,5 +2,5 @@
 
 public enum EntityEvent
 {
-    OnCreated
+    OnCreate
 }
