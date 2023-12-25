@@ -4,6 +4,7 @@ using NotificationsApi.Application.Common.Models.Querying;
 using NotificationsApi.Application.Common.Querying.Extensions;
 using NotificationsApi.Domain.Entities;
 using NotificationsApi.Domain.Enums;
+using NotificationsApi.Persistence.Repositories.Interfaces;
 using System.Linq.Expressions;
 
 namespace NotificationsApi.Infrastructure.Common.Notifications.Services;

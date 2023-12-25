@@ -1,8 +1,11 @@
 ﻿using FluentValidation;
+using Microsoft.EntityFrameworkCore;
 using NotificationsApi.Application.Common.Models.Querying;
 using NotificationsApi.Application.Common.Notifications.Services;
+using NotificationsApi.Application.Common.Querying.Extensions;
 using NotificationsApi.Domain.Entities;
 using NotificationsApi.Domain.Enums;
+using NotificationsApi.Persistence.Repositories.Interfaces;
 
 namespace NotificationsApi.Infrastructure.Common.Notifications.Services;
 

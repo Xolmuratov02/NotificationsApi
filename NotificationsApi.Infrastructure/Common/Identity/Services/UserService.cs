@@ -1,5 +1,8 @@
-﻿using NotificationsApi.Application.Common.Identity.Services;
+﻿using Microsoft.EntityFrameworkCore;
+using NotificationsApi.Application.Common.Identity.Services;
 using NotificationsApi.Domain.Entities;
+using NotificationsApi.Domain.Enums;
+using NotificationsApi.Persistence.Repositories.Interfaces;
 
 namespace NotificationsApi.Infrastructure.Common.Identity.Services;
 
