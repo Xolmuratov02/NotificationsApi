@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using NotificationsApi.Application.Common.Notifications.Brokers;
 using NotificationsApi.Application.Common.Notifications.Models;
+using NotificationsApi.Infrastructure.Common.Settings;
 using Twilio;
 using Twilio.Rest.Api.V2010.Account;
 

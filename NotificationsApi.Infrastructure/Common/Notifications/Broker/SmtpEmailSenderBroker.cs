@@ -3,6 +3,7 @@ using NotificationsApi.Application.Common.Notifications.Models;
 using System.Net.Mail;
 using System.Net;
 using Microsoft.Extensions.Options;
+using NotificationsApi.Infrastructure.Common.Settings;
 
 namespace NotificationsApi.Infrastructure.Common.Notifications.Broker;
 

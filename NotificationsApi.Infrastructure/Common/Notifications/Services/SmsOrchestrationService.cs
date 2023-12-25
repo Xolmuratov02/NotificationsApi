@@ -6,6 +6,7 @@ using NotificationsApi.Domain.Common.Exceptions;
 using NotificationsApi.Domain.Entities;
 using NotificationsApi.Domain.Enums;
 using NotificationsApi.Domain.Extensions;
+using NotificationsApi.Persistence.DataContexts;
 
 namespace NotificationsApi.Infrastructure.Common.Notifications.Services;
 

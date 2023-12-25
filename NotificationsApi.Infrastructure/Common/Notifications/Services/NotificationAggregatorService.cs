@@ -8,6 +8,7 @@ using NotificationsApi.Domain.Common.Exceptions;
 using NotificationsApi.Domain.Entities;
 using NotificationsApi.Domain.Enums;
 using NotificationsApi.Domain.Extensions;
+using NotificationsApi.Infrastructure.Common.Settings;
 
 namespace NotificationsApi.Infrastructure.Common.Notifications.Services;
 

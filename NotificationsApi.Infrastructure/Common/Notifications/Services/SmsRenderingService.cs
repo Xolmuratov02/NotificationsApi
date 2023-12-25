@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using System.Text;
 using NotificationsApi.Domain.Enums;
 using Microsoft.Extensions.Options;
+using NotificationsApi.Infrastructure.Common.Settings;
 
 namespace NotificationsApi.Infrastructure.Common.Notifications.Services;
 

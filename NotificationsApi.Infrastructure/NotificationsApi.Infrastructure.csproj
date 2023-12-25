@@ -17,9 +17,4 @@
     <ProjectReference Include="..\NotificationsApi.Persistence\NotificationsApi.Persistence.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Common\Validators\" />
-    <Folder Include="Common\Settings\" />
-  </ItemGroup>
-
 </Project>
